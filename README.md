@@ -1,5 +1,5 @@
 # Personal managment system (CRUD)
-## Personal managment system features
+## Features
 
 * Create employee/project.
 * Update employee/project.
