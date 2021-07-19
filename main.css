@@ -1,0 +1,71 @@
+* {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table tr:hover {
+  background-color: #ddd;
+}
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: lightcoral;
+  color: white;
+}
+
+.addbutton {
+  margin: 10px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: lightcoral;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: -1px;
+}
+
+header a {
+  display: flex;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+h1 {
+  color: white;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+a:nth-of-type(2) {
+  margin-left: 10px;
+}
+
+a button:hover {
+  cursor: pointer;
+}
